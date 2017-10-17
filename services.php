@@ -13,7 +13,7 @@
 	<div id="container">
 		<header class="header">
 			<section id="logocontainer">
-				<img src="img/cofftealogo.png" alt="cofftea zone">
+				<img src="img/lagocafe.png" alt="lago cafe">
 			</section>
 			<nav id="navbar">
 				<ul>

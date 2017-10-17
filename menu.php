@@ -17,9 +17,11 @@
 				<ul>
 					<li><a href="index.php">Home</a></li>
 					<li><a href="aboutus.php">About Us</a></li>
-					<li><a href="COFFTEA MENU.pdf">Menus</a></li>
+					<li><a href="coffteamenu.php">Cofftea Menu</a></li>
+					<li><a href="lagomenu.php">Lago Menu</a></li>
+					<li><a href="foodservices.php">Services</a></li>
+					<li><a href="facilities.php">Facilities</a></li>
 					<li><a href="gallery.php">Gallery</a></li>
-					<li><a href="events.php">Events</a></li>
 					<li><a href="contactus.php">Contact Us</a></li>
 				</ul>	
 			</nav> <!-- end of navbar-->
@@ -30,7 +32,11 @@
 			</div>		
 		</section>
 		<section id="menucontainer">
-		
+			<div class="menucategory">
+				<div class="category"><a href="">food</a></div>
+				<div class="category"><a href="">speciality beverage</a></div>
+				<div class="category"><a href="">pastries</a></div>
+			</div>
 			<div class="menudevider" id="lagomenus">
 				<div id="lagomenutitle" class="menutitle">
 					<h2>Lago De Dalahican Menu</h2>

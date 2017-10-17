@@ -13,14 +13,15 @@
 	<div id="container">
 		<header class="header">
 			<section id="logocontainer">
-				<img src="img/cofftealogo.png" alt="cofftea zone">
+				<img src="img/lagocafe.png" alt="lago cafe">
 			</section>
 			<nav id="navbar">
 				<ul>
 					<li><a href="index.php">Home</a></li>
 					<li><a href="aboutus.php">About Us</a></li>
-					<li><a href="menu.php">Menu</a></li>
-					<li><a href="foodservices.php">Food Services</a></li>
+					<li><a href="coffteamenu.php">Cofftea Menu</a></li>
+					<li><a href="lagomenu.php">Lago Menu</a></li>
+					<li><a href="foodservices.php">Services</a></li>
 					<li><a href="facilities.php">Facilities</a></li>
 					<li><a href="gallery.php">Gallery</a></li>
 					<li><a href="contactus.php">Contact Us</a></li>
@@ -61,7 +62,7 @@
 		<footer id="footercontainer">
 			<div class="footercontent">
 				<div class="aboutinfocontainer">
-					<p id="companyname"><span >Cofftea Zone</span></p>
+					<p id="companyname"><span>Lago Cafe</span></p>
 					<p id="location"><span>851 Manila Cavite Road, Dalahican Cavite City,<br>Philippines.</span></p>
 					<div id="phonenumber">
 						<p>Contact Numbers:</p>
@@ -86,6 +87,48 @@
 					<div class="findus">
 						<h3>Find Us</h3>
 						<a href="#">Facebook</a>
+					</div>
+				</div>
+				<div class="hours">
+					<div class="hoursdevider">
+						<div class="hourscontainer">
+							<div class="hourstitle">
+								<h3>COFFTEA HOURS</h3>
+							</div>
+							<div class="hoursched">
+								<h4>Monday to Sunday</h4>
+								<p>12:00 Noon to 11:00 PM</p>
+							</div>
+						</div>
+						<div class="hourscontainer">
+							<div class="hourstitle">
+								<h3>LAGO HOURS</h3>
+							</div>
+							<div class="hoursched">
+								<h4>Monday to Sunday</h4>
+								<p>2:00 PM to 2:00 AM</p>
+							</div>
+						</div>
+					</div>
+					<div class="hoursdevider">
+						<div class="hourscontainer">
+							<div class="hourstitle">
+								<h3>MARTINAS HOURS</h3>
+							</div>
+							<div class="hoursched">
+								<h4>Monday to Sunday</h4>
+								<p>12:00 Noon to 11:00 PM</p>
+							</div>
+						</div>
+						<div class="hourscontainer">
+							<div class="hourstitle">
+								<h3>KTV BAR HOURS</h3>
+							</div>
+							<div class="hoursched">
+								<h4>Monday to Sunday</h4>
+								<p>2:00 PM to 2:00 AM</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

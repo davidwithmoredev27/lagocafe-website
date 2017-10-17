@@ -10,17 +10,26 @@
 	<link rel="stylesheet" type="text/css" href="css/lagocafeStyle.css">
 </head>
 <body>
+	<div id="overlay" style="display: none;">
+			<div id="overlaybuttoncontainer">
+				<div id="overlaybutton"></div>
+			</div>
+			<div class="overlayimg">
+				<img src="#" width="100%" height="100%" id="imgoverlay">
+			</div>
+	</div>
 	<div id="container">
 		<header class="header">
 			<section id="logocontainer">
-				<img src="img/cofftealogo.png" alt="cofftea zone">
+				<img src="img/lagocafe.png" alt="lago cafe">
 			</section>
 			<nav id="navbar">
 				<ul>
 					<li><a href="index.php">Home</a></li>
 					<li><a href="aboutus.php">About Us</a></li>
-					<li><a href="menu.php">Menu</a></li>
-					<li><a href="foodservices.php">Food Services</a></li>
+					<li><a href="coffteamenu.php">Cofftea Menu</a></li>
+					<li><a href="lagomenu.php">Lago Menu</a></li>
+					<li><a href="foodservices.php">Services</a></li>
 					<li><a href="facilities.php">Facilities</a></li>
 					<li><a href="gallery.php">Gallery</a></li>
 					<li><a href="contactus.php">Contact Us</a></li>
@@ -64,52 +73,33 @@
 				<div class="bestsellertitle" id="lagosellertitle">
 					<h3>Lago Best Seller</h3>
 				</div>
-				<div class="seller">
+				<div class="seller sellerclick">
 					<figure>
-						<img src="" alt="">
-						<figcaption>
-							<h4></h4>
-						</figcaption>
 					</figure>
 				</div>
-				<div class="seller">
+				<div class="seller sellerclick">
 					<figure>
 						<img src="" alt="">
-						<figcaption>
-							<h4></h4>
-						</figcaption>
 					</figure>
 				</div>
-				<div class="seller">
+				<div class="seller sellerclick">
 					<figure>
 						<img src="" alt="">
-						<figcaption>
-							<h4></h4>
-						</figcaption>
 					</figure>
 				</div>
-				<div class="seller">
+				<div class="seller sellerclick">
 					<figure>
 						<img src="" alt="">
-						<figcaption>
-							<h4></h4>
-						</figcaption>
 					</figure>
 				</div>
-				<div class="seller">
+				<div class="seller sellerclick">
 					<figure >
 						<img src="" alt="">
-						<figcaption>
-							<h4></h4>
-						</figcaption>
 					</figure>
 				</div>
-				<div class="seller">
+				<div class="seller sellerclick">
 					<figure >
 						<img src="" alt="">
-						<figcaption>
-							<h4></h4>
-						</figcaption>
 					</figure>
 				</div>
 			</div>
@@ -118,52 +108,34 @@
 				<div class="bestsellertitle" id="coffteasellertitle">
 					<h3>Cofftea Best Seller</h3>
 				</div>
-					<div class="seller" class="firtseller">
+				<div class="seller firtseller sellerclick">
 					<figure>
 						<img src="" alt="">
-						<figcaption>
-							<h4></h4>
-						</figcaption>
 					</figure>
 				</div>
-				<div class="seller">
+				<div class="seller sellerclick" >
 					<figure>
 						<img src="" alt="">
-						<figcaption>
-							<h4></h4>
-						</figcaption>
 					</figure>
 				</div>
-				<div class="seller">
+				<div class="seller sellerclick">
 					<figure>
 						<img src="" alt="">
-						<figcaption>
-							<h4></h4>
-						</figcaption>
 					</figure>
 				</div>
-				<div class="seller">
+				<div class="seller sellerclick">
 					<figure>
 						<img src="" alt="">
-						<figcaption>
-							<h4></h4>
-						</figcaption>
 					</figure>
 				</div>
-				<div class="seller">
+				<div class="seller sellerclick">
 					<figure >
 						<img src="" alt="">
-						<figcaption>
-							<h4></h4>
-						</figcaption>
 					</figure>
 				</div>
-				<div class="seller">
+				<div class="seller sellerclick">
 					<figure >
 						<img src="" alt="">
-						<figcaption>
-							<h4></h4>
-						</figcaption>
 					</figure>
 				</div>
 			</div>
@@ -179,7 +151,7 @@
 		<footer id="footercontainer">
 			<div class="footercontent">
 				<div class="aboutinfocontainer">
-					<p id="companyname"><span >Cofftea Zone</span></p>
+					<p id="companyname"><span>Lago Cafe</span></p>
 					<p id="location"><span>851 Manila Cavite Road, Dalahican Cavite City,<br>Philippines.</span></p>
 					<div id="phonenumber">
 						<p>Contact Numbers:</p>
@@ -206,6 +178,48 @@
 						<a href="#">Facebook</a>
 					</div>
 				</div>
+				<div class="hours">
+					<div class="hoursdevider">
+						<div class="hourscontainer">
+							<div class="hourstitle">
+								<h3>COFFTEA HOURS</h3>
+							</div>
+							<div class="hoursched">
+								<h4>Monday to Sunday</h4>
+								<p>12:00 Noon to 11:00 PM</p>
+							</div>
+						</div>
+						<div class="hourscontainer">
+							<div class="hourstitle">
+								<h3>LAGO HOURS</h3>
+							</div>
+							<div class="hoursched">
+								<h4>Monday to Sunday</h4>
+								<p>2:00 PM to 2:00 AM</p>
+							</div>
+						</div>
+					</div>
+					<div class="hoursdevider">
+						<div class="hourscontainer">
+							<div class="hourstitle">
+								<h3>MARTINAS HOURS</h3>
+							</div>
+							<div class="hoursched">
+								<h4>Monday to Sunday</h4>
+								<p>12:00 Noon to 11:00 PM</p>
+							</div>
+						</div>
+						<div class="hourscontainer">
+							<div class="hourstitle">
+								<h3>KTV BAR HOURS</h3>
+							</div>
+							<div class="hoursched">
+								<h4>Monday to Sunday</h4>
+								<p>2:00 PM to 2:00 AM</p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 			<div id="copyrightcontainer">
 				<p>&copy; Cofftea Zone &amp; Lago De Dalahican 2017</p>
@@ -218,12 +232,22 @@
 		/*var sliderarr = document.getElementsByTagName("sliderarr");*/
 		var buttons = document.getElementsByClassName("button");
 		var bannerimg = document.getElementById("bannerimg");
-		// for buttons if manually click manually clicking
+		var bestsellerdevider = document.getElementsByClassName("bestsellerdevider");
+		var bestsellertitle = document.getElementsByClassName("bestsellertitle");
+
+		// for buttons if click and hovering manually
 		var buttonOne = buttons[0];
 		var buttonTwo = buttons[1];
 		var buttonThree = buttons[2];
 		var buttonFour = buttons[3];
 		var buttonFive = buttons[4];
+
+		var bestsellerdeviderCofftea = bestsellerdevider[0];
+		var bestsellerdeviderLago = bestsellerdevider[1];
+
+		var bestsellertitleCofftea = bestsellertitle[0];
+		var bestsellertitleLago = bestsellertitle[1];
+
 		var transitionFunction = function(transitionProperty , value) {
 			transitionProperty.style.WebkitTransition = value;
 			transitionProperty.style.MozTransition = value;
@@ -266,6 +290,7 @@
 			this.style.backgroundColor = "white";
 		};
 
+
 		buttonOne.onmouseover = changeColor;
 		buttonTwo.onmouseover = changeColor;
 		buttonThree.onmouseover = changeColor;
@@ -280,7 +305,7 @@
 
 
 		// para sa carousel functionality
-		var index = 0;
+		/*var index = 0;
 		var buttonIndex = 0;
 		function carousel() {
 			var i, ii;
@@ -318,11 +343,81 @@
 				} else if (i === 5) {
 
 				}*/
-			}
-			index++;
+			//}
+			//index++;
 
+		//}
+		/*setTimeInterval(carousel,2000);*/
+		var sellerclick = document.getElementsByClassName("sellerclick");
+		var sellerClickMax = sellerclick.length;
+		var overlay = document.getElementById("overlay");
+		var overlaybutton = document.getElementById("overlaybutton");
+		var overlayimg = document.getElementsByClassName("overlayimg");
+		var imgoverlay = document.getElementById("imgoverlay");
+		/*sellerclick.onclick = function () {
+			overlay.style.display = "block";
+
+		};*/
+		overlaybutton.onclick = function () {
+			overlay.style.transition = "ease all 2s";
+			overlay.style.display = "none";
+		};
+		var images = [
+			"_MG_3461.JPG" , "_MG_3461.JPG",
+			"_MG_3461.JPG" , "_MG_3461.JPG",
+			"_MG_3461.JPG" , "_MG_3461.JPG",
+			"_MG_3461.JPG" , "_MG_3461.JPG",
+			"_MG_3461.JPG" , "_MG_3461.JPG",
+			"_MG_3461.JPG" , "_MG_3461.JPG"
+		];
+		/*for (var ii = 0 ; ii < sellerClickMax; ii++) {
+			overlayimg[ii].style.backgroundImage = images[ii];
+		}*/
+
+
+		var changeColor = function() {
+			if (this === sellerclick[0]) {
+				overlay.style.display = "block";
+				imgoverlay.style.backgroundColor = "red";
+			} else if (this === sellerclick[1]) {
+				overlay.style.display = "block";
+				imgoverlay.style.backgroundColor = "pink";
+			} else if (this === sellerclick[2]) {
+				overlay.style.display = "block";
+				imgoverlay.style.backgroundColor = "orange";
+			} else if (this === sellerclick[3]) {
+				overlay.style.display = "block";
+				imgoverlay.src = "_MG_3587.JPG";
+			}
+		};
+		for (var i = 0; i < sellerClickMax ; i++) {
+			if (i === 0) {
+				sellerclick[0].addEventListener('click', changeColor , false);
+			} else if (i === 1) {
+				sellerclick[1].addEventListener('click', changeColor , false);
+			} else if (i === 2) {
+				sellerclick[2].addEventListener('click', changeColor , false);
+			} else if (i === 3) {
+				sellerclick[3].addEventListener('click', changeColor , false);
+			} else if (i === 4) {
+				sellerclick[4].addEventListener('click', changeColor , false);
+			} else if (i === 5) {
+				sellerclick[5].addEventListener('click' , changeColor , false);
+			} else if (i === 6) {
+				sellerclick[6].addEventListener('click' , changeColor , false);
+			} else if (i === 7) {
+				sellerclick[6].addEventListener('click' , changeColor , false);
+			} else if (i === 8) {
+				sellerclick[8].addEventListener('click' , changeColor , false);
+			} else if (i === 9) {
+				sellerclick[9].addEventListener('click' , changeColor , false);
+			} else if (i === 10) {
+				sellerclick[10].addEventListener('click' , changeColor , false);
+			} else if(i === 11) {
+				sellerclick[11].addEventListener('click' , changeColor , false);
+			}
 		}
-		setTimeInterval(carousel,2000);
+		
 	</script>
 </body>
 </html>
