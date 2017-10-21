@@ -4,6 +4,8 @@
 	<?php require "template/reset.php"; ?>
 	<title>Lago De Dalahican Menu</title>
 	<?php require "template/scriptsandstylesheet.php"; ?>
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
 	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"> -->
 	<link rel="stylesheet" type="text/css" href="css/lagocafeStyle.css">
 </head>

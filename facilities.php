@@ -28,8 +28,28 @@
 				</ul>	
 			</nav> <!-- end of navbar-->
 		</header>
+		<section class="facilitiesbanner">
+			<div class="facilitiestxt">
+				<h2>Our Facilities</h2>
+			</div>
+		</section>
 		<section id="facilitiescontainer">
-			
+			<div class="facilitiesdivider">
+				<div class="containers" id="coffteacontainer">
+					<div class="moreinfo"><a href="#">Show More</a></div>
+				</div>
+				<div class="containers" id="lagocontainer">
+					<div class="moreinfo"><a href="#">Show More</a></div>
+				</div>
+			</div>
+			<div class="facilitiesdivider">
+				<div class="containers" id="martinascontainer">
+					<div class="moreinfo"><a href="#">Show More</a></div>
+				</div>
+				<div class="containers" id="ktvcontainer">
+					<div class="moreinfo"><a href="#">Show More</a></div>
+				</div>
+			</div>
 		</section>
 		<footer id="footercontainer">
 			<div class="footercontent">
@@ -112,8 +132,6 @@
 <!-- 	<script src="../js/jquery-3.2.1.js"></script>
 	 -->	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js></script> -->
 	<script type="text/javascript">
-		var images = ["" , "" , "" , ""];
-		var leftarr = document.querySelector();
 	</script>
 </body>
 </html>

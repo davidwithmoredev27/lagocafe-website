@@ -8,6 +8,11 @@
 	<?php require "template/scriptsandstylesheet.php"; ?>
 	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"> -->
 	<link rel="stylesheet" type="text/css" href="css/lagocafeStyle.css">
+	<style type="text/css">
+		.slider img {
+			display: block;
+		}
+	</style>
 </head>
 <body>
 	<div id="container">
@@ -134,14 +139,14 @@
 				</div>
 			</div>
 			<div class="martinas">
-				<div class="martinascontainer">
+				<div class="martinascontainer" >
 					<div class="martinastitle">
 						<h3>MARTINAS</h3>
 					</div>
-					<div class="imageslider">
+					<div class="imageslider" id="sliderfunction">
 						<div class="slidercontainer">
-							<div class="slider"><img src="" alt="left"></div>
-							<div class="slider"><img src="" alt="right"></div>
+							<div class="slider" id="left"><img  style="display:block;" width="100%" height="100%" src="" alt="Left"></div>
+							<div class="slider" id="right"><img  style="display:block;" width="100%" height="100%" src="" alt="Right"></div>
 						</div>
 						<div class="details"><a href="">Details</a></div>
 					</div>
@@ -226,11 +231,76 @@
 			</div>
 		</footer>
 	</div>
-<!-- 	<script src="../js/jquery-3.2.1.js"></script>
-	 -->	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js></script> -->
 	<script type="text/javascript">
-		var images = ["" , "" , "" , ""];
-		var leftarr = document.querySelector();
+
+			var servicesImages = [
+				"_MG_3461.JPG" , "_MG_3618.JPG",
+				"_MG_3574.JPG" , "_MG_3601.JPG", 
+				"_MG_3587.JPG"
+			];
+			var leftArrow = document.getElementById("left");
+			var rightArrow = document.getElementById("right");
+			var sliderFunction = document.getElementById("sliderfunction");
+			var counter = 0;
+			var rightArrowSlider = function () {
+				sliderfunction.style.transition ="ease all .2s";
+				if (counter === 0) {
+					sliderfunction.style.backgroundImage = "url("+ servicesImages[0] + ")";
+					counter++;
+				} else if (counter === 1) {
+					sliderfunction.style.backgroundImage = "url("+ servicesImages[1] + ")";
+					counter++;
+					
+				} else if (counter === 2){
+					sliderfunction.style.backgroundImage = "url("+ servicesImages[2] + ")";
+					counter++;
+				} else if (counter === 3) {
+					sliderfunction.style.backgroundImage = "url("+ servicesImages[3] + ")";
+					counter++;
+				} else if (counter === 4) {
+					sliderfunction.style.backgroundImage = "url("+ servicesImages[4] + ")";
+					counter++;
+				} else if (counter === 5) {
+					counter = 0;
+				}
+				
+			};
+
+			var leftArrowSlider = function () {
+				sliderfunction.style.transition =  "ease all .2s";
+				if (counter === 5) {
+					counter = 4;
+				} else if (counter === 4 ) {
+					sliderfunction.style.backgroundImage = "url("+ servicesImages[4] + ")";
+					counter--;
+				} else if (counter === 3) {
+					sliderfunction.style.backgroundImage = "url("+ servicesImages[3] + ")";
+					counter--;
+				} else if (counter === 2) {
+					sliderfunction.style.backgroundImage = "url("+ servicesImages[2] + ")";
+					counter--;
+				} else if (counter === 1) {
+					sliderfunction.style.backgroundImage = "url("+ servicesImages[1] + ")";
+					counter--;
+				} else if (counter === 0) {
+					sliderfunction.style.backgroundImage = "url("+ servicesImages[0] + ")";
+					counter = 5;
+				}
+			};
+
+			rightArrow.onclick = rightArrowSlider;
+			leftArrow.onclick = leftArrowSlider;
 	</script>
+
+
+	<?php $a = 10; ?>
+	<?php echo "\t\t<!--A generated html comment using php-->"; ?>
+	<?php if ($a === 10) {
+		echo "<script type=\"text/javascript\">\n";
+		echo "\t\t\t" . "for (var i = 0 ; i <= 10 ; i++) {\n";
+		echo "\t\t\t\t" . "console.log(i);\n";
+		echo "\t\t\t}\n";
+		echo "\t\t</script>\n";
+	} ?>
 </body>
 </html>

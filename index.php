@@ -387,7 +387,31 @@
 				imgoverlay.style.backgroundColor = "orange";
 			} else if (this === sellerclick[3]) {
 				overlay.style.display = "block";
-				imgoverlay.src = "_MG_3587.JPG";
+				imgoverlay.style.backgroundColor = "red";
+			} else if(this === sellerclick[4]) {
+				overlay.style.display = "block";
+				imgoverlay.style.backgroundColor = "brown";
+			} else if (this === sellerclick[5]) {
+				overlay.style.display = "block";
+				imgoverlay.style.backgroundColor = "purple";
+			} else if (this === sellerclick[6]) {
+				overlay.style.display = "block";
+				imgoverlay.style.backgroundColor = "maroon";
+			} else if (this === sellerclick[7]) {
+				overlay.style.display = "block";
+				imgoverlay.style.backgroundColor = "blue";
+			} else if (this === sellerclick[8]) {
+				overlay.style.display = "block";
+				imgoverlay.style.backgroundColor = "green";
+			} else if (this === sellerclick[9]) {
+				overlay.style.display = "block";
+				imgoverlay.style.backgroundColor = "green";
+			} else if (this === sellerclick[10]) {
+				overlay.style.display = "block";
+				imgoverlay.style.backgroundColor = "lime";
+			} else if(this === sellerclick[11]) {
+				overlay.style.display = "block";
+				imgoverlay.style.backgroundColor = "#2a2a2a";
 			}
 		};
 		for (var i = 0; i < sellerClickMax ; i++) {
@@ -406,7 +430,7 @@
 			} else if (i === 6) {
 				sellerclick[6].addEventListener('click' , changeColor , false);
 			} else if (i === 7) {
-				sellerclick[6].addEventListener('click' , changeColor , false);
+				sellerclick[7].addEventListener('click' , changeColor , false);
 			} else if (i === 8) {
 				sellerclick[8].addEventListener('click' , changeColor , false);
 			} else if (i === 9) {
